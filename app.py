@@ -4,7 +4,7 @@ import numpy as np
 import os
 import joblib
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 MODEL_FILE = "landmark_model.joblib"
